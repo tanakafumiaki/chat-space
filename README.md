@@ -1,6 +1,6 @@
-#DB設計
+###DB設計
 
-##usersテーブル
+## usersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -13,7 +13,7 @@
 - has_many :members
 - has_many :messages
 
-##groupsテーブル
+## groupsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -24,7 +24,7 @@
 - has_many :users, through: :members
 - has_many :messages
 
-##messageテーブル
+## messageテーブル
 
 |Column|Type|Options|
 |------|----|-------|
